@@ -1,0 +1,63 @@
+/* example 1 - width */
+/* @media (max-width: 1024px) {
+    .left-block {
+        width: 250px;
+        background-color: orchid;
+    }
+    .right-block {
+        width: 250px;
+        background-color: thistle;
+    }
+}
+@media (max-width: 768px) {
+    .right-block {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .right-block {
+        display: block;
+        height: 150px;
+        width: 150px;
+        background-color: red;
+} */
+
+/* example 2 - flex-direction */
+/* @media (max-width: 1024px) {
+    .flex-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .center-block {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+} */
+/* example 3 - flex-wrap */
+@media (max-width: 600px) {
+    .flex-wraper {
+        flex-wrap: wrap;
+    }
+}
+/* images examples */
+/* @media (max-width: 1070px) {
+    .images-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+/* @media (max-width: 500px) {
+    .images-wraper {
+        justify-content: center;
+    }
+} */
+@media (max-width: 1024px) {
+    .image-block {
+        width: 48%;
+    }
+}
+@media (max-width: 480px) {
+    .image-block {
+        width: 100%;
+    }
+}
