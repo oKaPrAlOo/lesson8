@@ -61,3 +61,12 @@
         width: 100%;
     }
 }
+/* responsive burger */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}

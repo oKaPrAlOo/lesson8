@@ -1,3 +1,27 @@
+/* heder styles */
+.header-wraper {
+    background-color: gray;
+    padding: 30px;
+}
+.nav-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-ul li {
+    margin-right: 30px;
+}
+.fa-bars {
+    font-size: 30px;
+    color: white;
+}
+.burger {
+    display: none;
+}
+
+
 .section-bg {
     background-color: lightgray;
 }
@@ -41,3 +65,4 @@
 .image-block img {
     width: 100%;
 }
+
